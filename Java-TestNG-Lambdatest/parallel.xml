@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="20" parallel="tests" name="Suite">
+  <test thread-count="20" parallel="classes" name="Test">
+<parameter name="url" value="https://www.lambdatest.com/selenium-playground"/>
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.lambdatestNG.TestNG001"/>
+      <class name="com.lambdatestNG.TestNG002"/>
+      <class name="com.lambdatestNG.TestNG003"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
